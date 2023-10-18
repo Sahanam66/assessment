@@ -10,8 +10,8 @@ const App = () => {
     <div>
         <Router>
       <Routes>
-        <Route path="/" exact component={List} />
-        <Route path="/result" component={Result} />
+        <Route path="/" element={<List />} />
+        <Route path="/result" element={<Result />} />
       </Routes>
     </Router>
     </div>
